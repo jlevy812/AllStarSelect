@@ -1,0 +1,920 @@
+/* Start Page */
+.startContainer {
+    flex-direction: column;
+	width: 1366pt !important;
+	height: 768pt !important;
+	margin: auto;
+	padding-left: 0% !important;
+	position: relative;
+	max-width: 100vw;
+	max-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-image: url('assets/startPageBackground.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.startOverlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+
+.startPageTopLogos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40pt;
+    width: 100%;
+    max-height: 6%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.startPageMLBLogo{
+    height: 30pt;
+    width: 72pt;
+    max-height: 100%;
+    max-width: 17%;
+    background-image: url('assets/mlbLogo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.startSponsor{
+    margin-top: 2%;
+}
+
+.startPageUltimateTeamLogo{
+    height: 200pt;
+    width: 200pt;
+    background-image: url('assets/mlbUltimateTeamLogo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    z-index: 2;
+    margin-top: 3%;
+}
+
+.MLBUltimateTeamText{
+    color: white;
+    font-size: 50pt;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    z-index: 2;
+    margin-top: 2%;
+}
+
+@media (max-width: 1000px) {
+	.MLBUltimateTeamText{
+        font-size: 40pt;
+    }
+}
+
+@media (max-width: 800px) {
+	.MLBUltimateTeamText{
+        font-size: 35pt;
+    }
+}
+
+@media (max-width: 600px) {
+	.MLBUltimateTeamText{
+        font-size: 25pt;
+    }
+}
+
+.explanationText{
+    color: white;
+    font-size: 13pt;
+    font-family: 'Proxima Nova';
+    z-index: 2;
+}
+
+@media (max-width: 1000px) {
+	.explanationText{
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 850px) {
+	.explanationText{
+        font-size: 11pt;
+    }
+}
+
+@media (max-width: 750px) {
+	.explanationText{
+        font-size: 9pt;
+    }
+}
+
+@media (max-width: 625px) {
+	.explanationText{
+        font-size: 8pt;
+    }
+}
+
+.signupTextBoxes{
+	height: 50pt;
+	width: 965pt;
+	display: flex;
+  	flex-direction: row;
+	max-height: 25%;
+    z-index: 2;
+    justify-content: space-between;
+    max-width: 70%;
+    max-height: 6%;
+    margin-top: 2%;
+}
+
+.inputBox {
+	height: 50pt;
+	margin-bottom: 2vh;
+    max-height: 100%;
+    max-width: 30%;
+}
+  
+.inputField {
+	width: 200pt;
+	height: 50pt;
+	color: white;
+	background-color: #BC1B2133;
+	border: 1px solid #BC1B21;
+	border-radius: 5pt;
+	font-size: 14pt;
+	font-family: 'Helvetica Neue';
+	max-width: 100%;
+	max-height: 100%;
+	box-sizing: border-box;
+    text-align: center;
+}
+
+.inputField::placeholder {
+	color: white;
+	font-size: 10pt;
+	font-family: 'Helvetica Neue';
+}
+
+.submitButton{
+    height: 50pt;
+    width: 200pt;
+    max-width: 30%;
+    max-height: 6%;
+    margin-top: 3%;
+    color: white;
+    background-color: #BF0D3E;
+    z-index: 2;
+    border-radius: 5pt;
+    border: none;
+    margin-bottom: 2%;
+}
+
+.permissionText{
+    color: white;
+    font-size: 10pt;
+    font-family: 'Proxima Nova';
+    z-index: 2;
+}
+
+@media (max-width: 1000px) {
+	.permissionText{
+        font-size: 9pt;
+    }
+}
+
+@media (max-width: 850px) {
+	.permissionText{
+        font-size: 8pt;
+    }
+}
+
+@media (max-width: 750px) {
+	.permissionText{
+        font-size: 7pt;
+    }
+}
+
+@media (max-width: 625px) {
+	.permissionText{
+        font-size: 6pt;
+    }
+}
+
+
+/* Select Page */
+.fieldContainer {
+	width: 1366pt !important;
+	height: 768pt !important;
+	margin: auto;
+	padding-left: 0% !important;
+	position: relative;
+	max-width: 100vw;
+	max-height: 100vh;
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.leftSideBlack{
+    height: 768pt;
+    width: 33%;
+    background-image: url('assets/leftDarkTexture.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+    max-width: 33vw;
+    max-height: 100vh;
+    z-index: 2;
+}
+
+.topLogos{
+    height: 40pt;
+    width: 432pt;
+    max-height: 6%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.MLBLogo{
+    height: 40pt;
+    width: 72pt;
+    max-height: 100%;
+    max-width: 17%;
+    background-image: url('assets/mlbLogo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    margin-left: 5%;
+}
+
+.sponsorContainer{
+    margin-right: 2%;
+    display: flex;
+    max-width: 70%;
+}
+
+.poweredByText{
+    height: 20pt;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Proxima Nova';
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+	.poweredByText{
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 800px) {
+	.poweredByText{
+        font-size: 8pt;
+    }
+}
+
+.sponsorLogo{
+    height: 20pt;
+    width: 72pt;
+    background-image: url('assets/capitalOneLogo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    max-width: 50%;
+}
+
+.ultimateTeamLogo{
+    height: 200pt;
+    width: 200pt;
+    max-height: 26%;
+    max-width: 46%;
+    background-image: url('assets/mlbUltimateTeamLogo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.ultimateTeamText{
+    color: white;
+    font-size: 40pt;
+    margin-left: 5%;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+}
+
+.instructionText{
+    color: white;
+    font-size: 14pt;
+    max-width: 85%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+@media (max-width: 1100px) {
+	.ultimateTeamText{
+        font-size: 30pt;
+    }
+    
+    .instructionText{
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 900px) {
+	.ultimateTeamText{
+        font-size: 24pt;
+    }
+    
+    .instructionText{
+        font-size: 9pt;
+    }
+}
+
+.grassContainer{
+    height: 768pt;
+    width: 67%;
+    background-image: url('assets/grassVertical.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+    max-width: 67vw;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 33%;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+  
+.blur {
+    filter: blur(15px);
+}
+
+
+.baseballField{
+    height: 600pt;
+    width: 600pt;
+    background-image: url('assets/baseballField.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    max-width: 65vh;
+    max-height: 65vh;
+    position: relative;
+    z-index: 2;
+}
+
+.addPlayerBox {
+  background-color: white;
+  border: 1pt solid #707070;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #BF0D3E;
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  max-width: 8%;
+  max-height: 8%;
+}
+
+.playerBox1B{
+	top: 47%;
+	left: 68%;
+}
+
+.playerBox2B{
+	top: 30%;
+	left: 57%;
+}
+
+.playerBoxSS{
+	top: 30%;
+	left: 35%;
+}
+
+.playerBox3B{
+	top: 46%;
+	left: 23%;
+}
+
+.playerBoxC{
+	top: 74%;
+	left: 46%;
+}
+
+.playerBoxLF{
+	top: 18%;
+	left: 18%;
+}
+
+.playerBoxCF{
+	top: 9%;
+	left: 47%;
+}
+
+.playerBoxRF{
+	top: 18%;
+	left: 75%;
+}
+
+.playerBoxDH{
+	top: 65%;
+	left: 58%;
+}
+
+.playerBoxP{
+	top: 50%;
+	left: 46%;
+}
+
+.playerBoxText{
+    color: white;
+    font-size: 13pt;
+    font-family: 'Proxima Nova';
+    position: absolute;
+}
+
+@media (max-width: 1500px) {
+	.playerBoxText{
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 1400px) {
+	.playerBoxText{
+        font-size: 10pt;
+    }
+}
+
+
+.text1B{
+    top: 56%;
+	left: 68%;
+}
+
+.text2B{
+    top: 39%;
+	left: 56.5%;
+}
+
+.textSS{
+    top: 39%;
+	left: 34.5%;
+}
+
+.text3B{
+    top: 55%;
+	left: 22.5%;
+}
+
+.textC{
+    top: 83%;
+	left: 45.5%;
+}
+
+.textLF{
+    top: 28%;
+	left: 17.5%;
+}
+
+.textCF{
+    top: 18%;
+	left: 46.5%;
+}
+
+.textRF{
+    top: 28%;
+	left: 74.5%;
+}
+
+.textDH{
+    top: 74%;
+	left: 57.5%;
+}
+
+.textP{
+    top: 59%;
+	left: 45.5%;
+}
+
+.selectYourPlayersText{
+    color: white;
+    font-size: 18pt;
+    font-family: 'Proxima Nova';
+    margin-top: 3%;
+    z-index: 2;
+}
+
+.selectPage {
+    position: absolute;
+    width: 59%;
+    height: 93%;
+	background-image: url('assets/grassVertical.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+    border: 1px solid black;
+    bottom: 0;
+}
+
+.selectPage::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+}
+
+.filteringSection {
+    height: 10%;
+    background-image: url('assets/grassVertical.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.filteringSection select {
+    flex: 1;
+    width: 100px;
+}
+
+.filteringSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0.1%;
+    right: 0.5%;
+    color: red;
+    cursor: pointer;
+    font-size: 20pt;
+    z-index: 4;
+}
+
+.selectText {
+    color: #BF0D3E;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 30pt;
+    padding-left: 3%;
+    z-index: 4;
+}
+
+.positionText {
+    color: white;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 30pt;
+    padding-left: 1%;
+    z-index: 4;
+    white-space: nowrap;
+}
+
+.numberChosenText{
+    color: white;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 30pt;
+    z-index: 4;
+    position: absolute;
+    right: 15%;
+}
+
+.numberTotalText{
+    color: #BF0D3E;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 30pt;
+    z-index: 4;
+    position: absolute;
+    right: 11%;
+}
+
+
+.scrollableSection {
+    height: 78.75%;
+    overflow-y: auto;
+    margin: 10%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.player {
+    height: 220pt;
+    width: 110pt;
+    border: 1px solid #ccc;
+    margin: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 4;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.playerPicture{
+    height: 50%;
+    width: 100%;
+    background-color: #C2BDC1;
+    background-image: url('assets/headshot.webp');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.playerInfo{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.playerName{
+    height: 50%;
+    width: 100%;
+    color: black;
+    font-family: 'Proxima Nova';
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.playerStats{
+    color: black;
+    font-family: 'Proxima Nova';
+    font-size: 12pt;
+    text-align: center;
+}
+
+.player.selected {
+    border: 2px solid red;
+}
+
+.player.unselected {
+    opacity: 0.7;
+}
+
+.selectPlayerButtonBackground{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectPlayerButton{
+    height: 30pt;
+    width: 200pt;
+    color: white;
+    background-color: #BF0D3E;
+    z-index: 2;
+    border-radius: 5pt;
+    border: none;
+    color: white;
+    font-family: 'Proxima Nova';
+    font-size: 12pt;
+}
+
+
+/* Finish Page */
+.finishContainer {
+    flex-direction: row;
+	width: 1366pt !important;
+	height: 768pt !important;
+	margin: auto;
+	padding-left: 0% !important;
+	position: relative;
+	max-width: 100vw;
+	max-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-image: url('assets/grassVertical.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.finishOverlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.logoContainer{
+    height: 100%;
+    width: 45%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shareContainer{
+    height: 100%;
+    width: 45%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.finishPageUltimateTeamLogo{
+    height: 150pt;
+    width: 150pt;
+    background-image: url('assets/mlbUltimateTeamLogo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    z-index: 2;
+    margin-bottom: 3%;
+}
+
+.finishMLBUltimateTeamText{
+    color: white;
+    font-size: 30pt;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    z-index: 2;
+    margin-top: 2%;
+}
+
+@media (max-width: 1000px) {
+	.finishMLBUltimateTeamText{
+        font-size: 25pt;
+    }
+}
+
+@media (max-width: 850px) {
+	.finishMLBUltimateTeamText{
+        font-size: 22pt;
+    }
+}
+
+@media (max-width: 700px) {
+	.finishMLBUltimateTeamText{
+        font-size: 18pt;
+    }
+}
+
+.finishExplanationText{
+    color: white;
+    font-size: 13pt;
+    font-family: 'Proxima Nova';
+    z-index: 2;
+}
+
+@media (max-width: 1000px) {
+	.finishExplanationText{
+        font-size: 11pt;
+    }
+}
+
+@media (max-width: 875px) {
+	.finishExplanationText{
+        font-size: 9pt;
+    }
+}
+
+@media (max-width: 700px) {
+	.finishExplanationText{
+        font-size: 7pt;
+    }
+}
+
+.sharePicture{
+    height: 400pt;
+    width: 400pt;
+    background-image: url('assets/shareImage.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+    max-width: 100%;
+    max-height: 70%;
+    margin-top: 2%;
+}
+
+.shareText{
+    color: white;
+    font-size: 15pt;
+    font-family: 'Proxima Nova';
+    z-index: 2;
+    margin-top: 4%;
+}
+
+.logosLine{
+	width: 140pt;
+	height: 30pt;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 49%;
+	max-height: 4%;
+	margin-top: 3%;
+}
+
+.facebookLogo{
+	height: 30pt;
+	width: 30pt;
+	background-image: url('assets/icon_facebook.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.xLogo{
+	height: 30pt;
+	width: 30pt;
+	background-image: url('assets/icon_x.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.instagramLogo{
+	height: 30pt;
+	width: 30pt;
+	background-image: url('assets/icon_instagram.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+	max-height: 100%;
+}

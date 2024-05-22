@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AllStarSelect/static/css/main.5c043e1f.css",
+    "main.js": "/AllStarSelect/static/js/main.11e336c5.js",
+    "static/media/grassVertical.png": "/AllStarSelect/static/media/grassVertical.8429190cc3c9e7c55591.png",
+    "static/media/startPageBackground.png": "/AllStarSelect/static/media/startPageBackground.6378e516eca22999a925.png",
+    "static/media/shareImage.png": "/AllStarSelect/static/media/shareImage.ffe6f4e2fee1a60748b0.png",
+    "static/media/leftDarkTexture.png": "/AllStarSelect/static/media/leftDarkTexture.57b163d092ad41037bd4.png",
+    "static/media/mlbUltimateTeamLogo.png": "/AllStarSelect/static/media/mlbUltimateTeamLogo.e64967f54e3897abbf3d.png",
+    "static/media/baseballField.png": "/AllStarSelect/static/media/baseballField.3289f8eea65e4ef91e67.png",
+    "static/media/capitalOneLogo.png": "/AllStarSelect/static/media/capitalOneLogo.c9b0023a58b8f8258524.png",
+    "static/media/headshot.webp": "/AllStarSelect/static/media/headshot.09c1aaed6d7c148c30ae.webp",
+    "static/media/mlbLogo.png": "/AllStarSelect/static/media/mlbLogo.a5594ace8e0b0fd53074.png",
+    "static/media/icon_instagram.svg": "/AllStarSelect/static/media/icon_instagram.2b09a6d7718253693f4b.svg",
+    "static/media/icon_x.svg": "/AllStarSelect/static/media/icon_x.b9cd5f0dcb29adfbb6f0.svg",
+    "index.html": "/AllStarSelect/index.html",
+    "static/media/icon_facebook.svg": "/AllStarSelect/static/media/icon_facebook.71d976bd57bc62c85279.svg",
+    "main.5c043e1f.css.map": "/AllStarSelect/static/css/main.5c043e1f.css.map",
+    "main.11e336c5.js.map": "/AllStarSelect/static/js/main.11e336c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c043e1f.css",
+    "static/js/main.11e336c5.js"
+  ]
+}
